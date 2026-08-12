@@ -1,0 +1,11 @@
+# Ignore local environment variables and secrets
+.env
+
+# Ignore database and upload directories if they are run locally
+**/postgres/
+**/library/
+**/uploads/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
